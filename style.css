@@ -1,325 +1,59 @@
-
-div {
-    width: 400px;
-    height: 700px;
-    background-color: aqua;
-   display: inline;
-}
-#box2 {
-
-    position: absolute;
-    top: 70px;
-    margin-left: 500px;
-    background-image: url("17pro.jpeg");
-    background-size: 400px 700px;
-    background-repeat: no-repeat;
-    
-}
-#box3 {
-    position: absolute;
-    top: 70px;
-    margin-left: 1000px;
-    background-image: url("17promax.jpeg");
-    background-size: 400px 700px;
-    background-repeat: no-repeat;
-        
-}
-#box1 {
-    position: absolute;
-    top: 70px;
-    margin-left: 10px;
-   background-image: url("ip.jpeg");
-    background-size: 400px 700px;
-    background-repeat: no-repeat;
+*{
+  box-sizing:border-box;
 }
 
-    
-#box4 {
-    position: absolute;
-    top: 1000px;
-    margin-left: 10px;
-   background-image: url("ip18.jpeg");
-    background-size: 400px 700px;
-    background-repeat: no-repeat;
-  
-}
-#box5 {
-    position: absolute;
-    top: 1000px;
-    margin-left: 500px;
-    background-image: url("18pro.jpeg");
-    background-size: 400px 700px;
-    background-repeat: no-repeat;
-}
-   
-#box6 {
-    position: absolute;
-    top: 1000px;
-    margin-left: 1000px;
-    background-image: url("18pro_max.jpg");
-    background-size: 400px 700px;
-    background-repeat: no-repeat;
-}
-#iphone17 {
-    margin-top: 30px;
-    height: 8px;
-    width: 300px;
-    position: absolute;
-    text-align: center;
-    
-    
-}
-#iphone17pro {
-    height: 8px;
-    width: 300px;
-    position: absolute;
-    text-align: center;
-    margin-left: 500px;
-    
-}
-#iphone17promax {
-    height: 8px;
-    width: 300px;
-    position: absolute;
-    text-align: center;
-    margin-left: 1000px;
-    
-}
-#iphone18 {
-    height: 10px;
-    width: 300px;
-    position: absolute;
-    text-align: center;
-    margin-left: 10px;
-    margin-top: 950px;
-    z-index: -1;
-    
-}
-#iphone18pro {
-    height: 10px;
-    width: 300px;
-    position: absolute;
-    text-align: center;
-    margin-left: 500px;
-    margin-top: 950px;
-}
-#iphone18promax {
-    height: 10px;
-    width: 300px;
-    position: absolute;
-    text-align: center;
-    margin-left: 1000px;
-    margin-top: 950px;
-}
-button {
-    height: 25px;
-    width: 90px;
-    position: absolute;
-    color: white;
-    background-color: blue;
-    text-align: center;
-    display: inline-block;
-}
-#seventeen {
-    margin-left: 150px;
-   margin-top: 825px;
-   
-}
-#seventeenp {
-        margin-left: 650px;
-        margin-top: 830px;
-}
-#seventeenpm {
-    margin-left: 1150px;
-    margin-top: 830px;
-}
-#eighteen {
-    margin-left: 150px;
-    margin-top: 1750px;
-}
-#eighteenp {
-    margin-left: 650px;
-    margin-top: 1750px;
-}
-#eighteenpm {
-    margin-top: 1750px;
-    margin-left: 1150px;
-}
-footer {
-    background-color: black;
-    height: 150px;
-    width: 100%;
-    margin-top: 1900px;
-    position: absolute;
-    text-align: center;
-    color: white;
-}
-#down {
-    margin-left: -700px;
-}
-#downb {
-    margin-left: -300px;
-}
-#downc {
-    margin-left: 100px;
+body{
+  margin:0;
+  padding:10px;
+  overflow-x:hidden;
 }
 
-#price {
-    margin-top: 770px;
-    margin-left: 150px;
-    position: absolute;
-
-}
-#priceb {
-    margin-top: 780px;
-    margin-left: 650px;
-    position: absolute;
-}
-#pricec {
-    margin-top: 780px;
-    margin-left: 1150px;
-    position: absolute;
-}
-#pricex {
-    margin-top: 1700px;
-    margin-left: 150px;
-    position: absolute;
-}
-#pricey {
-    margin-top: 1700px;
-    margin-left: 650px;
-    position: absolute;
-}
-#pricez {
-    margin-top: 1700px;
-    margin-left: 1150px;
-    position: absolute;
-}
-input {
-    position: absolute;
-}
-#search {
-    margin-left: 170px;
-    margin-top: -2px;
-}
-img{
-    max-width:100%;
-    height:auto;
-}
-.products{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:20px;
-}
-@media (max-width: 768px){
-
-    .products{
-        flex-direction:column;
-        align-items:center;
-    }
-
-    img{
-        width:250px;
-    }
-
-    button{
-        width:120px;
-        height:40px;
-    }
-    body{
-    margin:0;
-    padding:10px;
+input{
+  width:60%;
+  height:30px;
 }
 
-img{
-    width:100%;
-    max-width:250px;
-    height:auto;
+#search{
+  width:100px;
+  height:35px;
+  background:blue;
+  color:white;
 }
 
-@media (max-width: 768px){
-
-    h2,h3{
-        text-align:center;
-    }
-
-    img{
-        max-width:180px;
-    }
-
-    button{
-        width:80px;
-    }
+div{
+  width:280px;
+  height:380px;
+  margin:25px auto;
+  background-size:contain !important;
+  background-position:center;
+  background-repeat:no-repeat;
 }
-@media (max-width: 768px){
 
-  div{
-    display:block;
-  }
+#box1{background-image:url("ip.jpeg");}
+#box2{background-image:url("17pro.jpeg");}
+#box3{background-image:url("17promax.jpeg");}
+#box4{background-image:url("ip18.jpeg");}
+#box5{background-image:url("18pro.jpeg");}
+#box6{background-image:url("18pro_max.jpg");}
 
-  #box1,#box2,#box3,#box4,#box5,#box6{
-    position:static !important;
-    width:90% !important;
-    height:450px !important;
-    margin:70px auto !important;
-    background-size:100% 100% !important;
-  }
-
-  #iphone17,#iphone17pro,#iphone17promax,
-  #iphone18,#iphone18pro,#iphone18promax,
-  #price,#priceb,#pricec,#pricex,#pricey,#pricez,
-  #seventeen,#seventeenp,#seventeenpm,
-  #eighteen,#eighteenp,#eighteenpm{
-    position:static !important;
-    margin:10px auto !important;
-    text-align:center !important;
-    display:block !important;
-  }
-
-  button{
-    position:static !important;
-    display:block !important;
-    margin:10px auto !important;
-  }
-
-  footer{
-    position:static !important;
-    width:100% !important;
-    margin-top:40px !important;
-  }
-
-  body{
-    overflow-x:hidden;
-  }
+h2,h3{
+  text-align:center;
+  margin:10px 0;
 }
-@media (max-width:768px){
 
-  #box1,#box2,#box3,#box4,#box5,#box6{
-    width:260px !important;
-    height:360px !important;
-    margin:30px auto !important;
-    background-size:contain !important;
-    background-position:center !important;
-    background-repeat:no-repeat !important;
-  }
-
-  h2{
-    font-size:24px !important;
-    margin-top:20px !important;
-  }
-
-  h3{
-    font-size:20px !important;
-  }
-
-  input{
-    width:55% !important;
-  }
-
-  #search{
-    width:120px !important;
-    height:45px !important;
-  }
+button{
+  display:block;
+  margin:10px auto 35px;
+  width:120px;
+  height:40px;
+  background:blue;
+  color:white;
 }
+
+footer{
+  background:black;
+  color:white;
+  text-align:center;
+  padding:25px;
+  margin-top:30px;
 }
