@@ -42,3 +42,41 @@ footer{
 footer a{
   color:white;
 }
+.cod-box{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+  justify-content:center;
+  align-items:center;
+  z-index:999;
+}
+
+.cod-content{
+  background:white;
+  width:90%;
+  max-width:350px;
+  padding:20px;
+  border-radius:12px;
+  text-align:center;
+}
+
+.cod-content input,
+.cod-content textarea{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+}
+
+.cod-content textarea{
+  height:80px;
+}
+
+.close{
+  float:right;
+  font-size:30px;
+  cursor:pointer;
+}
