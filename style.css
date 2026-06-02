@@ -1,58 +1,42 @@
 body{
   margin:0;
-  padding:8px;
+  padding:10px;
   font-family:Arial, sans-serif;
-}
-
-input{
-  width:55%;
-  height:28px;
-}
-
-#search{
-  width:90px;
-  height:30px;
-  background:blue;
-  color:white;
-}
-
-div{
-  display:block;
-  width:280px;
-  height:360px;
-  margin:25px auto;
-  background-size:contain;
-  background-repeat:no-repeat;
-  background-position:center;
-}
-
-#box1{ background-image:url("ip.jpeg"); }
-#box2{ background-image:url("17pro.jpeg"); }
-#box3{ background-image:url("17promax.jpeg"); }
-#box4{ background-image:url("ip18.jpeg"); }
-#box5{ background-image:url("18pro.jpeg"); }
-#box6{ background-image:url("18pro_max.jpg"); }
-
-h2,h3{
   text-align:center;
-  margin:10px auto;
 }
 
-button{
-  display:block;
-  width:90px;
-  height:28px;
-  margin:8px auto 25px auto;
+.search-box{
+  display:flex;
+  gap:8px;
+  margin-bottom:25px;
+}
+
+.search-box input{
+  flex:1;
+  padding:10px;
+}
+
+.search-box button,
+.product button{
   background:blue;
   color:white;
+  padding:10px 30px;
+}
+
+.product{
+  margin-bottom:45px;
+}
+
+.product img{
+  width:90%;
+  max-width:320px;
+  height:auto;
 }
 
 footer{
   background:black;
   color:white;
-  text-align:center;
-  padding:20px;
-  margin-top:30px;
+  padding:25px;
 }
 
 footer a{
