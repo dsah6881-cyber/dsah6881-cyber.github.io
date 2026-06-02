@@ -1,62 +1,60 @@
-*{
-  box-sizing:border-box;
-}
-
 body{
   margin:0;
-  padding:10px;
+  padding:8px;
   font-family:Arial, sans-serif;
 }
 
-.search-box{
-  display:flex;
-  gap:5px;
-  margin-bottom:20px;
+input{
+  width:55%;
+  height:28px;
 }
 
-.search-box input{
-  flex:1;
-  height:35px;
-}
-
-.search-box button,
-.card button{
+#search{
+  width:90px;
+  height:30px;
   background:blue;
   color:white;
-  border:none;
-  padding:10px 25px;
 }
 
-.products{
-  display:grid;
-  grid-template-columns:repeat(3, 1fr);
-  gap:30px;
+div{
+  display:block;
+  width:280px;
+  height:360px;
+  margin:25px auto;
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
 }
 
-.card{
+#box1{ background-image:url("ip.jpeg"); }
+#box2{ background-image:url("17pro.jpeg"); }
+#box3{ background-image:url("17promax.jpeg"); }
+#box4{ background-image:url("ip18.jpeg"); }
+#box5{ background-image:url("18pro.jpeg"); }
+#box6{ background-image:url("18pro_max.jpg"); }
+
+h2,h3{
   text-align:center;
+  margin:10px auto;
 }
 
-.card img{
-  width:100%;
-  max-width:300px;
-  height:auto;
+button{
+  display:block;
+  width:90px;
+  height:28px;
+  margin:8px auto 25px auto;
+  background:blue;
+  color:white;
 }
 
 footer{
-  margin-top:40px;
   background:black;
   color:white;
   text-align:center;
-  padding:25px;
+  padding:20px;
+  margin-top:30px;
 }
 
-@media(max-width:768px){
-  .products{
-    grid-template-columns:1fr;
-  }
-
-  .card img{
-    max-width:280px;
-  }
+footer a{
+  color:white;
 }
